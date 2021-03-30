@@ -16,7 +16,7 @@ export function TaskList() {
 
   function handleCreateNewTask() {
     if(!newTaskTitle) 
-      return ;
+      return alert("Título Vazio!");
     
     const newTask = {
       id: Math.random(),
